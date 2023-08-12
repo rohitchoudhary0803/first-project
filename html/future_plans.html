@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>future_plans</title>
+    <script src="https://kit.fontawesome.com/a9037bba18.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(62, 201, 247);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+nav ul li a:hover {
+    color: rgb(125, 130, 6);
+}
+
+.nav-img {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("../photos/cipla.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+
+}
+
+    .heading{
+        font-size: 5rem;
+        
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(98, 146, 154);
+    }
+    
+
+    .button-container {
+  display: flex;
+  background-image:url("../photos/diet2.jpg");
+  background-size: 100%;
+}
+
+.button {
+  padding: 30px 50px;
+  margin:220px 250px;
+  background-color: #0c98a7;
+  color:black;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 2.5rem;
+  text-decoration: none;
+  
+  
+}
+.button:hover{
+    transform: scale(1.1);
+}
+#diet h1{
+    font-size: 3.5rem;
+    margin: 0 450px;
+    text-decoration: underline;
+}
+#diet ul{
+    display: flex;
+    justify-content: center;
+}
+#diet ul li {
+    list-style: none;
+    margin: 80px 0;
+    
+    margin-left: 200px;
+    font-size: 2.5rem;
+}
+/* #diet {
+    margin:35px 5px;
+    font-size: 1.5rem;
+} */
+.break{
+    margin:35px 5px;
+    font-size: 2.5rem;
+    margin-top: 20px;
+
+}
+#diet{
+    background-color: rgb(163, 209, 231);
+
+}
+#schedule h1{
+    font-size: 3.5rem;
+    margin: 0 500px;
+    text-decoration: underline;
+}
+
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="nav-img">
+                <div class="logo">
+
+                </div>
+
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Health plans</a></li>
+                    <li><a href="#">Consultants</a></li>
+                    <li><a href="#">Solutions</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <div class="first_section">
+        <div class="heading">
+            Welcome to your Future Plans
+        </div>
+        
+        <div class="button-container">
+            <a href="#diet" class="button">Diet plan</a>
+            <button class="button">Schedule</button>
+          </div>
+
+          <div id="diet">
+            <h1>Diet Plan for our daily life</h1>
+            <ul>
+                <li>vegeterian</li>
+                <li>eggeterian</li>
+                <li>non-vegeterian</li>
+            </ul>
+
+           <div class="break">Breakfast</div>
+           <div class="break">Brunch</div>
+           <div class="break">Lunch</div>
+           <div class="break">Snacks</div>
+           <div class="break">Dinner</div>
+            
+            
+          </div>
+          <div id="schedule">
+            <h1>Daily life schedule</h1>
+
+          </div>
+          
+    </div>
+    
+</body>
+</html>
